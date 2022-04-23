@@ -1,5 +1,6 @@
-.flexbox-container{
+/* .flexbox-container{
     display: flex;
+    background-color: aquamarine;
 
 }
 
@@ -10,3 +11,221 @@ border: 3px solid #333;
 background-color: #dfdfdf;
 
 }
+
+.flex-container {
+    display: flex;
+    background-color: DodgerBlue;
+  }
+  
+  .flex-container > div {
+    background-color: #f1f1f1;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+  } */
+
+
+
+  /* Navigation Bar */
+
+
+  /* .flex-container {
+    display: flex;
+    background-color: rgb(9, 94, 79);
+    justify-content: space-between;
+  }
+
+
+  .flex-container2 {
+    display: flex;
+    background-color: rgb(81, 133, 123);
+   
+  }
+
+  .flex-container > ul {
+   
+    justify-content: space-between;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+   list-style-type: none;
+  }
+  .flex-container > ul > li {
+    background-color: #f1f1f1;
+    display: inline-flex;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+  
+  } */
+
+  .Sections1 {
+    height: 400px;
+    background-color: rgb(221, 214, 214);
+    margin: 10px;
+
+  }
+
+
+
+
+  .IntroContainer {
+    display: flex;
+    justify-content: center;
+ flex-direction: column;
+  background-color: rgb(221, 214, 214);
+  margin: 10px;
+  padding: 0 100px 0 100px;
+
+}
+
+.IntroContainer > div {
+  background-color: #646464;
+  justify-content: space-around;
+display: flex;
+
+ 
+}
+
+.IntroContainer .IntroContainerSummary {
+  display: flex;
+  justify-content: center;
+flex-direction: column;
+background-color: rgb(146, 146, 146);
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+  .ProjectContainer {
+      display: flex;
+      justify-content: center;
+   flex-direction: column;
+    background-color: rgb(221, 214, 214);
+    margin: 10px;
+    padding: 0 100px 0 100px;
+
+  }
+
+  .ProjectContainer > div {
+    background-color: #646464;
+    justify-content: space-around;
+  display: flex;
+ 
+   
+}
+
+.ProjectContainer .ProjectContainerSummary {
+    display: flex;
+    justify-content: center;
+ flex-direction: column;
+  background-color: rgb(146, 146, 146);
+
+}
+
+
+  .ProjectContainer > div > article {
+      background-color: #fffafa;
+      margin: 10px;
+      display: block;
+      width: 500px;
+    
+
+  }
+
+
+
+
+
+  .ContactUsContainer {
+    display: flex;
+    justify-content: center;
+ flex-direction: column;
+  background-color: rgb(221, 214, 214);
+  margin: 10px;
+  padding: 0 100px 0 100px;
+
+}
+
+.ContactUsContainer  > div {
+    background-color: #646464;
+    justify-content: space-around;
+  display: flex;
+ 
+   
+}
+
+
+.ContactUsContainer .ContactUsContainerSummary {
+    display: flex;
+    justify-content: center;
+ flex-direction: column;
+  background-color: rgb(146, 146, 146);
+
+}
+
+
+
+  /* test */
+
+
+
+  .NavContainer{
+    background-color: rgb(153, 153, 153);
+ justify-content: space-between;
+    
+margin: 10px;
+display: flex;
+
+  }
+
+  .NavContainer > ul {
+      display: flex;
+      justify-content: right;
+    list-style-type: none;
+   
+    margin: 0;
+    padding: 0;
+
+    background-color: #333;
+  }
+  
+  .NavContainer li {
+
+ 
+    border-right:1px solid rgb(255, 255, 255);
+  }
+  
+  /* .NavContainer  li:last-child {
+    border-right: none;
+  } */
+  
+  .NavContainer li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .NavContainer li a:hover:not(.active) {
+    background-color: #111;
+  }
+  
+  .NavContainer  .active {
+    background-color: #1e6ac2;
+  }
+
+
+
+
+
